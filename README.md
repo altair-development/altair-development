@@ -43,7 +43,7 @@ MongoDBサーバーに接続しアカウントやタスク情報の更新を行�
 - APIキーを使用してWEBサーバーのクライアント認証
 - Node.js(Fw:Express.js)
 
-[apiへ移動する](api)
+[apiへ移動する][(api)](https://github.com/altair-development/api)
 
 ## websock
 WebSocket通信専用サーバーモジュール。ユーザーはログイン完了後に当該サーバーに直接アクセスし、自身の所属するクランチャンネルにログインしクランに関するデータの更新をサブスクライブする。
@@ -53,7 +53,7 @@ WebSocket通信専用サーバーモジュール。ユーザーはログイン�
 - APIサーバーとセッションを共有
 - npm socket.ioライブラリ
 
-[websockへ移動する](websock)
+[websockへ移動する][(websock)](https://github.com/altair-development/websock)
 
 ## websock-monitor
 WebSocketサーバーに配置されるWebSocket通信用クライアントモジュール。  
@@ -61,7 +61,7 @@ WebSocketサーバーモジュールはHTTPリクエストを処理しないた�
 
 - npm socket.ioライブラリ
 
-[websock-monitorへ移動する](websock-monitor)
+[websock-monitorへ移動する](https://github.com/altair-development/websock-monitor)
 
 ## spa
 Next.jsで構築したWebサーバーモジュール。
@@ -76,7 +76,7 @@ HTMLのレンダリングにSSRを採用しないのにNext.jsの利用を決め
 - プライベートインスタンス上のAPIサーバーと唯一つながるWEBサーバーを導入したかったから
 - 勉強のため
 
-[spaへ移動する](spa)
+[spaへ移動する](https://github.com/altair-development/spa)
 
 ## deploy
 Amazon EKSとKubernetesを使用したデプロイメントリソース。  
@@ -96,7 +96,7 @@ Amazon EKSとKubernetesを使用したデプロイメントリソース。
 
 <img width="718" alt="aws構成図" src="https://github.com/joey23008/altair/assets/35098718/681a0f78-8cbb-4d3f-9036-dbd0234a0378">
 
-[deployへ移動する](deploy)
+[deployへ移動する](https://github.com/altair-development/deploy)
 
 ## docker
 ローカルにDockerコンテナを展開し開発環境を構築するためのDockerリソース。
@@ -106,4 +106,4 @@ docker-compose.ymlを実行することで下記のコンテナが展開され�
 - MongoDBレプリカセット
 - Redisセンチネル
 
-[dockerへ移動する](docker)
+[dockerへ移動する](https://github.com/altair-development/docker)
