@@ -43,7 +43,7 @@ MongoDBサーバーに接続しアカウントやタスク情報の更新を行�
 - APIキーを使用してWEBサーバーのクライアント認証
 - Node.js(Fw:Express.js)
 
-[apiへ移動する][(api)](https://github.com/altair-development/api)
+[apiへ移動する](https://github.com/altair-development/api)
 
 ## websock
 WebSocket通信専用サーバーモジュール。ユーザーはログイン完了後に当該サーバーに直接アクセスし、自身の所属するクランチャンネルにログインしクランに関するデータの更新をサブスクライブする。
@@ -53,7 +53,7 @@ WebSocket通信専用サーバーモジュール。ユーザーはログイン�
 - APIサーバーとセッションを共有
 - npm socket.ioライブラリ
 
-[websockへ移動する][(websock)](https://github.com/altair-development/websock)
+[websockへ移動する](https://github.com/altair-development/websock)
 
 ## websock-monitor
 WebSocketサーバーに配置されるWebSocket通信用クライアントモジュール。  
